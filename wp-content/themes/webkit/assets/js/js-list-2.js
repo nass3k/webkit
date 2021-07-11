@@ -1,0 +1,2 @@
+BX.setJSList(['/bitrix/js/main/session.js','/bitrix/js/main/core/core_fx.js','/bitrix/js/main/core/core_window.js','/bitrix/js/main/date/main.date.js','/bitrix/js/main/core/core_date.js','/bitrix/js/main/utils.js','/local/gulp/build/js/main.js','/local/templates/itf/js/core.js','/local/templates/itf/js/upload.js','/local/templates/itf/js/additional.js']);
+BX.setCSSList(['/local/gulp/build/css/main.css','/local/templates/itf/template_styles.css']);
