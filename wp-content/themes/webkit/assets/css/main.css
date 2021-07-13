@@ -1,4 +1,40 @@
 @font-face {
-    font-family: Pompadur; /* Имя шрифта */
-    src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
+    font-family: "GilroyRegular";
+    src: url("/../fonts/Gilroy/GilroyRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
 }
+
+@font-face {
+    font-family: "GilroySB";
+    src: url("/../fonts/Gilroy/GilroySemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("/../fonts/Gilroy/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+.container.narrow {
+    max-width: 1100px;
+}
+
+@media (min-width: 1200px) {
+    .home .title {
+        font-size: 1.125rem;
+    }
+}
+
+/*.header {*/
+/*    font-family: "GilroyMedium", sans-serif;*/
+/*    font-weight: 500;*/
+/*}*/

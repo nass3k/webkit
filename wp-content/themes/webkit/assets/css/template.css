@@ -3747,33 +3747,33 @@
   font-weight: normal;
   font-style: normal; }
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url("/../fonts/Gilroy/GilroyRegular.eot");
-  src: local("Gilroy Regular Cyrillic"), local("GilroyRegular"), url("/../fonts/Gilroy/GilroyRegular.eot?#iefix") format("embedded-opentype"), url("/../fonts/Gilroy/GilroyRegular.woff") format("woff"), url("/../fonts/Gilroy/GilroyRegular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+/*@font-face {*/
+/*  font-family: 'Gilroy';*/
+/*  src: url("/../fonts/Gilroy/GilroyRegular.ttf");*/
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url("/../fonts/Gilroy/GilroyMedium.eot");
-  src: local("Gilroy Medium Cyrillic"), local("GilroyMedium"), url("/../fonts/Gilroy/GilroyMedium.eot?#iefix") format("embedded-opentype"), url("/../fonts/Gilroy/GilroyMedium.woff") format("woff"), url("/../fonts/Gilroy/GilroyMedium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal; }
+/*  font-weight: normal;*/
+/*  font-style: normal; }*/
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url("/../fonts/Gilroy/GilroySemiBold.eot");
-  src: local("Gilroy SemiBold Cyrillic"), local("GilroySemiBold"), url("/../fonts/Gilroy/GilroySemiBold.eot?#iefix") format("embedded-opentype"), url("/../fonts/Gilroy/GilroySemiBold.woff") format("woff"), url("/../fonts/Gilroy/GilroySemiBold.ttf") format("truetype");
-  font-weight: 600;
-  font-style: normal; }
+/*@font-face {*/
+/*  font-family: "GilroyMedium";*/
+/*  src: url("/../fonts/Gilroy/GilroyMedium.ttf") format("truetype");*/
 
-@font-face {
-  font-family: 'Gilroy';
-  src: url("/../fonts/Gilroy/GilroyBold.eot");
-  src: local("Gilroy Bold Cyrillic"), local("GilroyBold"), url("/../fonts/Gilroy/GilroyBold.eot?#iefix") format("embedded-opentype"), url("/../fonts/Gilroy/GilroyBold.woff") format("woff"), url("/../fonts/Gilroy/GilroyBold.ttf") format("truetype");
-  font-weight: 700;
-  font-style: normal; }
+/*  font-weight: 500;*/
+/*  font-style: normal; }*/
+
+/*@font-face {*/
+/*  font-family: 'Gilroy';*/
+/*  src: url("/../fonts/Gilroy/GilroySemiBold.ttf");*/
+
+/*  font-weight: 600;*/
+/*  font-style: normal; }*/
+
+/*@font-face {*/
+/*  font-family: 'Gilroy';*/
+/*  src: url("/../fonts/Gilroy/GilroyBold.ttf");*/
+
+/*  font-weight: 700;*/
+/*  font-style: normal; }*/
 
 .row {
   display: flex;
