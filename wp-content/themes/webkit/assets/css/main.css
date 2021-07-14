@@ -29,7 +29,7 @@
 }
 
 @media (min-width: 1200px) {
-    .home .title {
+    footer .container .row .col .title {
         font-size: 1.125rem;
     }
 }
