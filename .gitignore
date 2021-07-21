@@ -1,0 +1,4 @@
+# игнорируем всё в корне
+/*
+# кроме папки /webkit
+!/wp-content/themes/webkit

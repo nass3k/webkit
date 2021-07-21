@@ -30,7 +30,7 @@
 <div class="header dk-home-header dark  ">
     <div class="container">
         <div class="container-inner">
-            <a href="index.html" class="logo">
+            <a href="<?= home_url(); ?>" class="logo">
                 <svg class="icon">
                     <use xlink:href="/local/templates/itf/assets/icons/sprite.svg#logo"></use>
                 </svg>
