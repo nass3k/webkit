@@ -23,19 +23,19 @@ get_header();
             <div class="container">
                 <div class="home__intro-header">
                     <h1 class="title">
-                        <span class="title--small js-fade-in">Мы разрабатываем</span>
-                        <span class="js-fade-in" data-fade-delay="0.4"><a data-type="web" class="js-decor-trigger active" href="services/veb-razrabotka-na-1s-bitriks/index.html">сайты</a> и мобильные</span>
-                        <span class="js-fade-in" data-fade-delay="0.4"><a data-type="app" class="js-decor-trigger" href="services/razrabotka-prilozheniy/index.html">приложения</a></span>
+                        <span class="title--small js-fade-in">Мы делаем</span>
+                        <span class="js-fade-in" data-fade-delay="0.4"><a data-type="web" class="js-decor-trigger active" href="/services/web-dev/">сайты</a> и занимаемся</span>
+                        <span class="js-fade-in" data-fade-delay="0.4"><a data-type="app" class="js-decor-trigger" href="/services/promotion/">продвижением</a></span>
                     </h1>
-                    <p class="description js-fade-in" data-fade-delay="0.8">Создание интернет-магазинов, B2B-порталов, интеграции по API</p>
+                    <p class="description js-fade-in" data-fade-delay="0.8">Создание интернет-магазинов, B2B-порталов, привлечение клиентов</p>
                 </div>
                 <div class="home__intro-visual js-fade-in" data-fade-delay="1">
-                    <a href="portfolio/index.html" class="home__intro-visual-video js-video" data-type="web">
+                    <a href="/portfolio/" class="home__intro-visual-video js-video" data-type="web">
                         <video width="100%" height="100%" data-object-fit="cover" autoplay="" muted="" loop="" class="media">
                             <source src="<?= get_template_directory_uri() ?>/assets/video/web.mp4" type="video/mp4">
                         </video>
                     </a>
-                    <a href="portfolio/index.html" class="home__intro-visual-video js-video" data-type="app">
+                    <a href="/portfolio/" class="home__intro-visual-video js-video" data-type="app">
                         <video width="100%" height="100%" data-object-fit="cover" autoplay="" muted="" loop="" class="media">
                             <source src="<?= get_template_directory_uri() ?>/assets/video/app.mp4" type="video/mp4"></video>
                     </a>
@@ -83,25 +83,25 @@ get_header();
                     </div>
                     <div class="js-accordion home__about-list-item">
                         <div class="js-accordion-header home__about-list-item-header">
-                            <h3 class="home__about-list-item-title">Мобильные приложения</h3>
+                            <h3 class="home__about-list-item-title">Продвижение сайтов</h3>
                             <div class="home__about-list-item-icon"><span class="line"></span> <span class="line"></span>
                             </div>
                         </div>
                         <div class="js-accordion-body home__about-list-item-body">
                             <p>
-                                Разрабатываем и поддерживаем мобильные приложения под IOS и Android. Используем нативные языки программирования Swift и Kotlin. Размещаем приложения на площадках AppStore и Google Play. <a href="services/razrabotka-prilozheniy/index.html">Читать подробнее</a>
+                                Хотите видеть свой сайт в ТОП-10 Яндекс? Предлагаем продвижение по запросам. Подбираем для вас наиболее эффективные с точки зрения SEO поисковые запросы с высоким конверсионным потенциалом. <a href="/services/promotion/">Читать подробнее</a>
                             </p>
                         </div>
                     </div>
                     <div class="js-accordion home__about-list-item">
                         <div class="js-accordion-header home__about-list-item-header">
-                            <h3 class="home__about-list-item-title">Интеграции по API</h3>
+                            <h3 class="home__about-list-item-title">Контекстная реклама</h3>
                             <div class="home__about-list-item-icon"><span class="line"></span> <span class="line"></span>
                             </div>
                         </div>
                         <div class="js-accordion-body home__about-list-item-body">
                             <p>
-                                Создаем собственные API для мобильных приложений и веб-сервисов. Интегрируемся с внешними сервисами по API.
+                                Контролируем количество лидов, которое Вы получаете в результате ведения рекламной кампании. Уже через 2 дня вы получаете первых клиентов. В рамках данной услуги мы работаем над конверсией и юзабилити сайта, поэтому прописываем финансовые гарантии по количеству лидов в договоре.
                             </p>
                         </div>
                     </div>
@@ -208,7 +208,7 @@ get_header();
                 </div>
                 <div class="home__portfolio-list">
                     <div class="home__portfolio-project dk-project__smart js-dk-project-smart">
-                        <a href="projects/Smart_bazar/index.html" class="home__portfolio-project-left">
+                        <a href="#" class="home__portfolio-project-left">
                             <div class="image js-dk-project-smart-image">
                                 <div class="source-wrapper">
                                     <svg class="dk-project__smart-svg" width="366" height="368" viewBox="0 0 366 368" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -243,9 +243,9 @@ get_header();
                         </a>
                         <div class="home__portfolio-project-right">
                             <ul class="home__portfolio-project-tags">
-                                <li><a href="projects/Smart_bazar/index.html">Дизайн</a></li>
-                                <li><a href="projects/Smart_bazar/index.html">Верстка</a></li>
-                                <li><a href="projects/Smart_bazar/index.html">Программирование</a></li>
+                                <li><a href="#">Дизайн</a></li>
+                                <li><a href="#">Верстка</a></li>
+                                <li><a href="#">Программирование</a></li>
                             </ul>
                             <div class="home__portfolio-project-title">
                                 Smart-Bazar — магазин смартфонов
@@ -256,7 +256,7 @@ get_header();
                                 <li>Подключение модуля оплат VK.pay по API;</li>
                                 <li>Подключение модуля рассрочки от TINKOFF;</li>
                             </ul>
-                            <a href="projects/Smart_bazar/index.html" class="home__portfolio-project-button">Подробнее о кейсе</a>
+                            <a href="#" class="home__portfolio-project-button">Подробнее о кейсе</a>
                         </div>
                     </div>
 
@@ -264,7 +264,7 @@ get_header();
                         <div class="home__portfolio-project-left">
                             <div class="image">
                                 <div class="source-wrapper">
-                                    <img src="local/templates/itf/assets/images/projects/sber.jpg" alt="">
+                                    <img src="<?= get_template_directory_uri(); ?>/assets/img/projects/sber.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -273,17 +273,16 @@ get_header();
                                 <li>Проектирование</li>
                                 <li>Дизайн</li>
                                 <li>Верстка</li>
-                                <li>IOS</li>
                             </ul>
                             <div class="home__portfolio-project-title">
                                 Сбербанк — Южное гостеприимство
                             </div>
                             <div class="home__portfolio-project-text">
                                 <p>
-                                    Приложение-путеводитель для внутреннего использования сотрудниками Сбербанка.
+                                    Сайт-путеводитель для внутреннего использования сотрудниками Сбербанка.
                                 </p>
                                 <p>
-                                    Приложение позволяет выбрать гостиницу, посмотреть туристические маршруты, достопримечательности и забронировать столик в ресторанах.
+                                    Сайт позволяет выбрать гостиницу, посмотреть туристические маршруты, достопримечательности и забронировать столик в ресторанах.
                                 </p>
                             </div>
                             <div class="home__portfolio-project-button is-disabled">
@@ -293,20 +292,20 @@ get_header();
                     </div>
 
                     <div class="home__portfolio-project dk-project__victory js-dk-project-victory">
-                        <a href="projects/pobeda/index.html" class="home__portfolio-project-left">
+                        <a href="#" class="home__portfolio-project-left">
                             <div class="image">
                                 <div class="source-wrapper">
-                                    <img src="local/templates/itf/assets/images/projects/victory-factory.svg" alt="">
+                                    <img src="<?= get_template_directory_uri(); ?>/assets/img/projects/victory-factory.svg" alt="">
                                     <video muted="" loop="">
-                                        <source src="local/templates/itf/assets/video/victory-factory-video.mp4" type="video/mp4"></video>
+                                        <source src="<?= get_template_directory_uri(); ?>/assets/video/victory-factory-video.mp4" type="video/mp4"></video>
                                 </div>
                             </div>
                         </a>
                         <div class="home__portfolio-project-right">
                             <ul class="home__portfolio-project-tags">
-                                <li><a href="projects/pobeda/index.html">Верстка</a></li>
-                                <li><a href="projects/pobeda/index.html">Программирование</a></li>
-                                <li><a href="projects/pobeda/index.html">Поддержка</a></li>
+                                <li><a href="#">Верстка</a></li>
+                                <li><a href="#">Программирование</a></li>
+                                <li><a href="#">Поддержка</a></li>
                             </ul>
                             <div class="home__portfolio-project-title">
                                 Фабрика «Победа» — магазин шоколада
@@ -317,12 +316,12 @@ get_header();
                                 <li>Интеграция со службой доставки СДЕК;</li>
                                 <li>Подключена европейская платежная система - Worldline;</li>
                             </ul>
-                            <a href="projects/pobeda/index.html" class="home__portfolio-project-button">Подробнее о кейсе</a>
+                            <a href="#" class="home__portfolio-project-button">Подробнее о кейсе</a>
                         </div>
                     </div>
 
                     <div class="home__portfolio-project dk-project__yota">
-                        <a href="projects/yota/index.html" class="home__portfolio-project-left">
+                        <a href="#" class="home__portfolio-project-left">
                             <div class="image">
                                 <div class="source-wrapper">
                                     <svg viewBox="0 0 910 530" class="dk-project__yota-svg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -331,8 +330,8 @@ get_header();
                                                 <circle cx="455" cy="265" r="75"/>
                                             </clipPath>
                                         </defs>
-                                        <image xlink:href="/local/templates/itf/assets/images/projects/yota-layer-upper.png"></image>
-                                        <image clip-path="url(#yota-circle-clip)" xlink:href="/local/templates/itf/assets/images/projects/yota-layer-bottom.png"></image>
+                                        <image xlink:href="<?= get_template_directory_uri(); ?>/assets/img/projects/yota-layer-upper.png"></image>
+                                        <image clip-path="url(#yota-circle-clip)" xlink:href="<?= get_template_directory_uri(); ?>/assets/img/projects/yota-layer-bottom.png"></image>
                                         <polygon fill="transparent" points="225,265 454,35 685,264 454,500" ></polygon>
                                     </svg>
                                 </div>
@@ -340,17 +339,17 @@ get_header();
                         </a>
                         <div class="home__portfolio-project-right">
                             <ul class="home__portfolio-project-tags">
-                                <li><a href="projects/yota/index.html">Проектирование</a></li>
-                                <li><a href="projects/yota/index.html">Дизайн</a></li>
-                                <li><a href="projects/yota/index.html">Верстка</a></li>
-                                <li><a href="projects/yota/index.html">Программирование</a></li>
+                                <li><a href="#">Проектирование</a></li>
+                                <li><a href="#">Дизайн</a></li>
+                                <li><a href="#">Верстка</a></li>
+                                <li><a href="#">Программирование</a></li>
                             </ul>
                             <div class="home__portfolio-project-title">Ys System — быстрый интернет от Yota</div>
                             <ul class="home__portfolio-project-text">
                                 <li>Разработка 3D моделей устройств;</li>
                                 <li>Подключение модуля оплаты - Robokassa;</li>
                             </ul>
-                            <a href="projects/yota/index.html" class="home__portfolio-project-button">Подробнее о кейсе</a>
+                            <a href="#" class="home__portfolio-project-button">Подробнее о кейсе</a>
                         </div>
                     </div>
 
@@ -358,7 +357,7 @@ get_header();
                         <div class="home__portfolio-project-left">
                             <div class="image">
                                 <div class="source-wrapper">
-                                    <img src="local/templates/itf/assets/images/projects/clinic.jpg" alt="">
+                                    <img src="<?= get_template_directory_uri(); ?>/assets/img/projects/clinic.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -367,8 +366,6 @@ get_header();
                                 <li>Проектирование</li>
                                 <li>Дизайн</li>
                                 <li>Верстка</li>
-                                <li>IOS</li>
-                                <li>Android</li>
                                 <li>API</li>
                             </ul>
                             <div class="home__portfolio-project-title">
@@ -390,7 +387,7 @@ get_header();
 
                 </div>
                 <div class="home__portfolio-btn-more-wr">
-                    <a href="local/gulp/build/assets/images/port/b&amp;amp%3Bw.jpg.html" class="home__portfolio-btn-more">Все кейсы</a>
+                    <a href="#" class="home__portfolio-btn-more">Все кейсы</a>
                 </div>
             </div>
         </section>
@@ -404,7 +401,7 @@ get_header();
                     </p>
                 </div>
                 <div class="home__awards-list owl-carousel js-awards-mobile-slider">
-                    <a href="index.html#" class="home__awards-list-item">
+                    <a href="#" class="home__awards-list-item">
                         <div class="home__awards-list-item-icon">
                             <span class="home__awards-list-item-num">2</span>
                             <span class="home__awards-list-item-text">место</span>
@@ -416,11 +413,11 @@ get_header();
                             </span>
                         </div>
                         <div class="home__awards-list-item-caption">
-                            в рейтинге разработчиков интернет‑магазинов Ростова‑на‑Дону верхнего ценового сегмента
+                            в рейтинге разработчиков интернет‑магазинов Санкт-Петербурга среднего ценового сегмента
                         </div>
                     </a>
 
-                    <a href="index.html#" class="home__awards-list-item">
+                    <a href="#" class="home__awards-list-item">
                         <div class="home__awards-list-item-icon">
                             <span class="home__awards-list-item-num">3</span>
                             <span class="home__awards-list-item-text">место</span>
@@ -432,11 +429,11 @@ get_header();
                             </span>
                         </div>
                         <div class="home__awards-list-item-caption">
-                            в рейтинге разработчиков интернет‑магазинов / Мобильные телефоны / Верхний сегмент
+                            в рейтинге разработчиков интернет‑магазинов / Продвижение / Средний сегмент
                         </div>
                     </a>
 
-                    <a href="index.html#" class="home__awards-list-item">
+                    <a href="#" class="home__awards-list-item">
                         <div class="home__awards-list-item-icon">
                             <span class="home__awards-list-item-num">6</span>
                             <span class="home__awards-list-item-text">место</span>
@@ -448,11 +445,11 @@ get_header();
                             </span>
                         </div>
                         <div class="home__awards-list-item-caption">
-                            в рейтинге web‑студий Ростова‑на‑Дону
+                            в рейтинге web‑студий Санкт-Петербурга
                         </div>
                     </a>
 
-                    <a href="index.html#" class="home__awards-list-item">
+                    <a href="#" class="home__awards-list-item">
                         <div class="home__awards-list-item-icon">
                             <span class="home__awards-list-item-num">15</span>
                             <span class="home__awards-list-item-text">место</span>
@@ -464,11 +461,11 @@ get_header();
                             </span>
                         </div>
                         <div class="home__awards-list-item-caption">
-                            в рейтинге разработчиков интернет‑магазинов верхнего ценового сегмента
+                            в рейтинге разработчиков интернет‑магазинов среднего ценового сегмента
                         </div>
                     </a>
 
-                    <a href="index.html#" class="home__awards-list-item">
+                    <a href="#" class="home__awards-list-item">
                         <div class="home__awards-list-item-icon">
                         <span class="home__awards-list-item-img">
                             <svg width="53" height="70" viewBox="0 0 53 70" xmlns="http://www.w3.org/2000/svg">
@@ -483,7 +480,7 @@ get_header();
                             </span>
                         </div>
                         <div class="home__awards-list-item-caption">
-                            Участник конкурса Рейтинг&nbsp;Рунета&nbsp;2020
+                            Участник конкурса Рейтинг&nbsp;Рунета&nbsp;2018
                         </div>
                     </a>
                 </div>
@@ -521,10 +518,7 @@ get_header();
                             <div class="faq__slider-text">Мы работаем без НДС. Каждый этап разработки разбивается на аванс и оплату. Далее каждый этап закрывается актами выполненных работ.</div>
                         </div>
 
-                        <div class="faq__slider-item">
-                            <div class="faq__slider-title">Будет ли выделен отдельный менеджер под проект?</div>
-                            <div class="faq__slider-text">Да, под каждую задачу выделяется проект-менеджер, который полностью курирует все вопросы по проекту.</div>
-                        </div>
+
                     </div>
                     <div class="faq__btn js-feedback-open" data-title="Задайте свой вопрос" data-subtitle="и мы обязательно Вам на него ответим">Задать свой вопрос</div>
                 </div>
